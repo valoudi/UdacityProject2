@@ -25,7 +25,7 @@ I've used common python libraries like : pandas, nltk, sklearn and plotly. All t
 ### File Description
 
    - Folder data : contains data (*.csv) and process_data.py  --> This python file will act as an ETL and create a db file.
-   - Folder models : contains train_classifier.py --> This file will train a model and create the model file.
+   - Folder models : contains train_classifier.py --> This file will train a model and create the model file. In order to avoid training the model every time, I've created a model file that is available on this github.
    - Folder app : contains run.py --> This file will run a web dashboard.
 
 ### Examples
